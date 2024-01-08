@@ -9,8 +9,8 @@ int main() {
     srand(time(NULL));
 
     cout << "\t\t\t\t\tУгадай число!" << endl << endl;
-
-    int random_number = rand() % (20 - 1 + 1) + 1;
+    int counter = 1;
+    int random_number = rand() % (100 - 1 + 1) + 1;
     int user_number;
 
     //cout << random_number << endl; // подсказка
@@ -30,9 +30,10 @@ int main() {
             }
             cout << "Введите число: ";
             cin >> user_number;
+            counter ++;
         }
     } while (user_number != random_number);
-    cout << "Вы угадали!!!" << endl;
+    cout << "Вы угадали!!!" << endl; cout << "количество попыток: " << counter  << endl;
     int sin;
     cin >> sin;
     return 0;

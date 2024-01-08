@@ -1,3 +1,1 @@
-﻿  main.cpp
-D:\Users\1\source\ildar\prgames\prgames\main.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  prgames.vcxproj -> D:\Users\1\source\ildar\prgames\x64\Debug\prgames.exe
+﻿  prgames.vcxproj -> C:\Users\1\Desktop\Guess-my-number\prgames\x64\Debug\prgames.exe
